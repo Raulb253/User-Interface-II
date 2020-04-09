@@ -45,6 +45,13 @@ vertical-align: baseline;
 .innerContent{
     padding:8%;
     display:flex;
+    padding: 0% 10%;
+}
+.innerContent img{
+    width:100%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .finalContent{
     padding:5%;
@@ -58,9 +65,11 @@ div.greeting p{
     padding:0% 20% 0% 0%;
     margin:0% 0% 0% 60%;
 }
-.gallery{
+#gallery{
+    display:flex;
     flex-direction: row;
 }
+
 /*font-size and element specific stylings*/
 
 h1{
@@ -69,4 +78,7 @@ h1{
 h2{
     font-size:25px;
     text-align:center;
+}
+footer nav{
+    align-content: center;
 }

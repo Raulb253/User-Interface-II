@@ -64,7 +64,7 @@ div.greeting p{
 }
 /*T R B L*/
 .finalContent p{
-    padding:0% 10% 0% 2%;
+    padding:0% 20% 0% 2%;
     margin:0% 0% 0% 20%;
 }
 #gallery{
@@ -84,5 +84,9 @@ h2{
     text-align:center;
 }
 footer nav a{
-    align-content: center;
+    padding:2%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;;
 }
